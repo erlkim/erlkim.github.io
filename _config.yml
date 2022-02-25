@@ -63,7 +63,7 @@ dash:
   #avatar_path: /assets/avatar.png
 
 # Build settings
-theme: jekyll-dash
+Theme: jekyll-dash
 
 plugins:
  - jekyll-feed
