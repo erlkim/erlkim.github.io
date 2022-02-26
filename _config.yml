@@ -72,3 +72,9 @@ plugins:
  - liquid-md5
  - jekyll/tagging
  - jekyll-admin
+
+collections:
+  posts:
+    output: true
+    sidebar_label: News
+
