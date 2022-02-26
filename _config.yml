@@ -71,3 +71,4 @@ plugins:
  - jekyll-paginate
  - liquid-md5
  - jekyll/tagging
+ - jekyll-admin
