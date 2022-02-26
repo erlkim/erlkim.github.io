@@ -3,11 +3,19 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-dash"
   spec.version       = "2.3.2"
+<<<<<<< HEAD
   spec.authors       = ["erlkim"]
   spec.email         = ["halo@erlkim.com"]
 
   spec.summary       = "A dark UI theme for Jekyll, inspired by Dash UI for Atom."
   spec.homepage      = "https://erlkim.github.io"
+=======
+  spec.authors       = ["Erlkim"]
+  spec.email         = ["halo@erlkim.com"]
+
+  spec.summary       = "A dark UI theme for Jekyll, inspired by Dash UI for Atom."
+  spec.homepage      = "https://erlkim.com/"
+>>>>>>> d46680340e014bf9eb6065dc9578c4db8cb4fb82
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_plugins|_sass|LICENSE|README)!i) }

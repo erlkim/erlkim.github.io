@@ -1,6 +1,7 @@
 title: erlkim
 author: Erlkim
 email: halo@erlkim.com
+<<<<<<< HEAD
 url: 'https://erlkim.com'
 description: >-
   Biarlah jika ada orang yang merendahkan ataupun mencaci diri kita. </br>
@@ -8,6 +9,18 @@ description: >-
 show_excerpts: false
 paginate: '5'
 paginate_path: '/blog/page:num/'
+=======
+url: https://erlkim.com
+#baseurl: "" 
+description: > # this means to ignore newlines until "show_exerpts:"
+  Biarlah jika ada orang yang merendahkan ataupun mencaci diri kita.
+  </br>Anggap saja hanya sehembus angin yang berlalu.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 3
+paginate_path: "/blog/page:num/"
+
+>>>>>>> d46680340e014bf9eb6065dc9578c4db8cb4fb82
 tag_permalink_style: pretty
 tag_page_layout: tag_page
 tag_page_dir: tag
@@ -37,8 +50,20 @@ dash:
   show_author: true
   animation_speed: 50
   rtl: false
+<<<<<<< HEAD
+=======
+
+  # Replaces the default avatar provider (gravatar)
+  #avatar_source: github
+  #github_username: bitbrain
+  avatar_source: local
+  avatar_path: /assets/avatar.gif
+
+# Build settings
+>>>>>>> d46680340e014bf9eb6065dc9578c4db8cb4fb82
 Theme: jekyll-dash
 plugins:
+<<<<<<< HEAD
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
@@ -51,7 +76,20 @@ hidden_links:
   - staticfiles
   - datafiles
   - configuration
+=======
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
+ - jekyll-admin
+
+>>>>>>> d46680340e014bf9eb6065dc9578c4db8cb4fb82
 collections:
   posts:
     output: true
     sidebar_label: News
+<<<<<<< HEAD
+=======
+
+>>>>>>> d46680340e014bf9eb6065dc9578c4db8cb4fb82
