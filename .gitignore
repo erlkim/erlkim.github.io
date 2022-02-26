@@ -5,3 +5,6 @@ Gemfile.lock
 *.gem
 *.idea
 .jekyll-cache
+._includes
+._layouts
+._sass
