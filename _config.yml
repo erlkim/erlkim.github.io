@@ -45,12 +45,7 @@ plugins:
   - liquid-md5
   - jekyll/tagging
   - jekyll-admin
-hidden_links:
-  - posts
-  - pages
-  - staticfiles
-  - datafiles
-  - configuration
+
 collections:
   posts:
     output: true
