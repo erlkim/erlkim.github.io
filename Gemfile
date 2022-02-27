@@ -4,7 +4,10 @@ gem "bundler"
 gem "liquid-md5"
 gem "jekyll-tagging"
 gem "kramdown-parser-gfm"
-gem 'jekyll-admin', group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem "jekyll-admin"
+end
 
 gemspec
 
