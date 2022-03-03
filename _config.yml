@@ -36,7 +36,7 @@ dash:
       color: yellow
   show_author: true
   animation_speed: 50
-avatar_source: local
+  avatar_source: local
   avatar_path: /assets/avatar.gif
   rtl: false
 Theme: jekyll-dash
