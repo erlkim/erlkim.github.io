@@ -7,9 +7,6 @@ gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-admin"
-  gem "jekyll-cli-plus"
-  gem "jekyll-seo-tag", "~> 1.5"
-  gem "some-other-jekyll-plugin"
 end
 
 gemspec
