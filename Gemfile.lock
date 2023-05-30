@@ -115,6 +115,7 @@ DEPENDENCIES
   jekyll-tagging
   kramdown-parser-gfm
   liquid-md5
+  public_suffix (~> 5.0)
   rake (~> 13.0.6)
   wdm (>= 0.1.0)
   webrick (~> 1.7)

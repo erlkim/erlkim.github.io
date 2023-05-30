@@ -4,7 +4,7 @@ gem "bundler"
 gem "liquid-md5"
 gem "jekyll-tagging"
 gem "kramdown-parser-gfm"
-
+gem 'public_suffix', '~> 5.0'
 
 group :jekyll_plugins do
   gem "jekyll-admin"
