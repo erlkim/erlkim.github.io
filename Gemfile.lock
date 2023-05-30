@@ -12,7 +12,6 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
-    backports (3.23.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -108,7 +107,6 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  backports
   bundler
   jekyll-admin
   jekyll-dash!
