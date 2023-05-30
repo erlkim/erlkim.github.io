@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     jekyll-dash (2.3.2)
-      jekyll (~> 4.0)
+      jekyll (~> 4.2)
       jekyll-feed (~> 0.14)
       jekyll-paginate
       jekyll-seo-tag (~> 2.1)
@@ -19,7 +19,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.15.5-x64-mingw-ucrt)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -109,6 +109,7 @@ PLATFORMS
 DEPENDENCIES
   backports
   bundler
+  jekyll
   jekyll-admin
   jekyll-dash!
   jekyll-tagging
