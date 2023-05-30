@@ -109,7 +109,6 @@ PLATFORMS
 DEPENDENCIES
   backports
   bundler
-  jekyll
   jekyll-admin
   jekyll-dash!
   jekyll-tagging
