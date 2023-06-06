@@ -1,5 +1,5 @@
 ---
-layout: psot
+layout: post
 title: Membuat Kode Login Html Sederhana
 description: Cara Buat script login html biasa
 tag: tutorial gratis
