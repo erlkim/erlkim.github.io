@@ -111,6 +111,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-dash!
   jekyll-tagging
+  kramdown (~> 2.4)
   kramdown-parser-gfm
   liquid
   liquid-md5
