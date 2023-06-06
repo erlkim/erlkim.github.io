@@ -21,7 +21,7 @@ Tahap 1 – Buat Form Login
 
 
 
-'''<form action="form_action.asp" method="post">
+```<form action="form_action.asp" method="post">
 
 <#label for="username">Username: </label>
 
@@ -34,8 +34,8 @@ Tahap 1 – Buat Form Login
 <#input type="submit" value="Submit">
 
 </form>
-'''
- 
+```
+
 
  
 
@@ -49,14 +49,15 @@ Setelah Anda membuat form login, Anda perlu menangani bagaimana cara mengontrol 
 
  
 
-'''<form action="check_login.php" method="post">
+```<form action="check_login.php" method="post">
 
 </form>
 
 <form action="check_login.php" method="post">
 
-</form>
-'''
+</form>```
+```
+	
  
 
  
@@ -71,11 +72,12 @@ Setelah data telah dikirimkan ke jendela login Anda, Anda perlu menyimpan data. 
 
  
 
- '''$username = $_POST['username'];
+```$username = $_POST['username'];
 
- $password = $_POST['password'];
-'''
- 
+$password = $_POST['password'];```
+	
+```
+
 
  
 
@@ -91,7 +93,7 @@ Setelah data telah disimpan, Anda perlu menguji untuk melihat apakah data yang d
 
  
 
-'''if($username == $stored_username && $password == $stored_password)
+```if($username == $stored_username && $password == $stored_password)
 
  {
 
@@ -106,8 +108,8 @@ Setelah data telah disimpan, Anda perlu menguji untuk melihat apakah data yang d
  Echo "Login Failed";
 
  }
-'''
- 
+```
+
 
  
 
