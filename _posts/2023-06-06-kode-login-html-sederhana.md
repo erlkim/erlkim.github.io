@@ -20,20 +20,20 @@ Tahap 1 – Buat Form Login
  
 
 
----
-> _<form action="form_action.asp" method="post">
 
-<#label for="username">Username: </label>
+><form action="form_action.asp" method="post">
 
-<#input type="text" id="username" name="username">
+><#label for="username">Username: </label>
 
-<#label for="pwd">Password: </label>
+><#input type="text" id="username" name="username">
 
-<#input type="password" id="pwd" name="pwd">
+><#label for="pwd">Password: </label>
 
-<#input type="submit" value="Submit">
+><#input type="password" id="pwd" name="pwd">
 
-</form>_
+><#input type="submit" value="Submit">
+
+></form>
 
  
 
@@ -48,14 +48,14 @@ Setelah Anda membuat form login, Anda perlu menangani bagaimana cara mengontrol 
  
 
  
----
-> _<form action="check_login.php" method="post">
+
+><form action="check_login.php" method="post">
 
 </form>
 
 <form action="check_login.php" method="post">
 
-</form>_
+></form>
 
  
 
@@ -70,10 +70,10 @@ Setelah data telah dikirimkan ke jendela login Anda, Anda perlu menyimpan data. 
  
 
  
----
- > _$username = $_POST['username'];
 
- $password = $_POST['password'];_
+ >$username = $_POST['username'];
+
+ >$password = $_POST['password'];_
 
  
 
@@ -90,23 +90,23 @@ Setelah data telah disimpan, Anda perlu menguji untuk melihat apakah data yang d
  
 
  
----
-> _if($username == $stored_username && $password == $stored_password)
 
- {
+>if($username == $stored_username && >$password == $stored_password)
 
- Echo "Login Successful";
+ >{
 
- } 
+ >Echo "Login Successful";
 
- else
+ >} 
 
- {
+ >else
 
- Echo "Login Failed";
+ >{
 
- }_
----
+ >Echo "Login Failed";
+
+ >}
+
  
 
  
