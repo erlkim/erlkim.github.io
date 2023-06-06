@@ -19,19 +19,19 @@ Kode login HTML adalah mungkin salah satu aspek terpenting untuk website atau ap
 
  
 
- 
+
 
 ><form action="form_action.asp" method="post">
 
- <label for="username">Username: </label>
+ <#label for="username">Username: </label>
 
- <input type="text" id="username" name="username">
+ <#input type="text" id="username" name="username">
 
- <label for="pwd">Password: </label>
+ <#label for="pwd">Password: </label>
 
- <input type="password" id="pwd" name="pwd">
+ <#input type="password" id="pwd" name="pwd">
 
- <input type="submit" value="Submit">
+ <#input type="submit" value="Submit">
 
  </form>
 
@@ -113,4 +113,5 @@ Kode login HTML adalah mungkin salah satu aspek terpenting untuk website atau ap
 
  Itulah langkah-langkah yang diperlukan untuk membuat kode login <HTML> di website Anda atau aplikasi Anda. Dengan mengikuti langkah-langkah ini, Anda sudah cukup dekat untuk membuat form login <HTML> yang akan mengamankan data dan memberikan layanan yang lebih baik kepada para penggunanya.
 
+#Hapus tanda 👉<#>👈
 Terima Kasih 😊
