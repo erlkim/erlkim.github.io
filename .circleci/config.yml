@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run:
           name: Which bundler?
-          command: bundle -v
+          command: bundle -
       - ruby/install-deps
 
 # Orchestrate jobs using workflows
@@ -28,3 +28,4 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build
+
